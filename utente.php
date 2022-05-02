@@ -1,5 +1,5 @@
 <?php
-include_once 'cartaCredito.php';
+include_once __DIR__ . '/cartaCredito.php';
 
 class Utente
 {

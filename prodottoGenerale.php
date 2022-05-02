@@ -1,6 +1,6 @@
 <?php
 
-class Prodotto
+class ProdottoGenerale
 {
     private string $prodottoNome;
     private float $prodottoPrezzo;
@@ -51,8 +51,8 @@ class Prodotto
     }
 }
 
-$cuccia = new Prodotto("cuccia", 12.40, "immagine_cuccia");
-var_dump($cuccia);
+$cuccia = new ProdottoGenerale("cuccia", 12.40, "immagine_cuccia");
+// var_dump($cuccia);
 
-$peluche= new Prodotto("peluche", 15.00, "immagine_peluche");
-var_dump($peluche);
+$peluche= new ProdottoGenerale("peluche", 15.00, "immagine_peluche");
+// var_dump($peluche);

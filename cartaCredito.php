@@ -1,4 +1,5 @@
 <?php
+
 Class Carta_Credito {
    private $numero;
    private $banca;

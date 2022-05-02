@@ -1,7 +1,7 @@
 <?php
-include_once 'prodotto.php';
+include_once __DIR__ . '/prodottoGenerale.php';
 
-class Alimento extends Prodotto 
+class Alimento extends ProdottoGenerale 
 {
     private $peso;
     private $tipo;
@@ -31,7 +31,7 @@ class Alimento extends Prodotto
     }
 }
 
-class Antipulci extends Prodotto
+class Antipulci extends ProdottoGenerale
 {
     private $razzaAnimale;
     private $disponibilità;
@@ -60,7 +60,7 @@ class Antipulci extends Prodotto
 }
 
 $zeroPulci= new Antipulci("Zero Pulci", 15.30, "immagine Antipulci","Labrador","Mese: aprile");
-var_dump($zeroPulci);
+// var_dump($zeroPulci);
 
 $croccantini= new Alimento ("pappa", 12.60, "immagine pappa", 3.50, "croccatini anallergici");
-var_dump($croccantini);
+// var_dump($croccantini);
