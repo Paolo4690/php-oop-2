@@ -16,6 +16,7 @@ class Prodotto
     
     public function setProdottoNome($_nome) {
         $this->prodottoNome = $_nome;
+        return $this;
     }
 
     public function getProdottoNome() {
@@ -24,6 +25,7 @@ class Prodotto
 
     public function setProdottoPrezzo($_prezzo) {
         $this->prodottoPrezzo = $_prezzo;
+        return $this;
     }
 
     public function getProdottoPrezzo() {
@@ -32,6 +34,7 @@ class Prodotto
 
     public function setProdottoSconto($_sconto) {
         $this->prodottoSconto = $_sconto;
+        return $this;
     }
 
     public function getProdottoSconto() {
@@ -40,6 +43,7 @@ class Prodotto
 
     public function setProdottoImg($_img) {
         $this->prodottoImg = $_img;
+        return $this;
     }
 
     public function getProdottoImg() {

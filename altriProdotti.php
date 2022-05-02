@@ -1,7 +1,8 @@
 <?php
 include_once 'prodotto.php';
 
-class Alimento extends Prodotto {
+class Alimento extends Prodotto 
+{
     private $peso;
     private $tipo;
     
@@ -13,6 +14,7 @@ class Alimento extends Prodotto {
 
     public function setPeso($_peso) {
         $this->peso = $_peso;
+        return $this;
     }
 
     public function getPeso() {
@@ -21,6 +23,7 @@ class Alimento extends Prodotto {
 
     public function setTipo($_tipo) {
         $this->tipo = $_tipo;
+        return $this;
     }
 
     public function getTipo() {
@@ -28,7 +31,8 @@ class Alimento extends Prodotto {
     }
 }
 
-class Antipulci extends Prodotto {
+class Antipulci extends Prodotto
+{
     private $razzaAnimale;
     private $disponibilità;
     
